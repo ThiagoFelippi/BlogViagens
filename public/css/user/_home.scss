@@ -1,0 +1,74 @@
+#intro{
+    @include dimension(false, 470px);
+}
+
+#titulo{
+    @include titles(700, 55px, italic);
+    @include dimension(443px, false);
+    color: #2EA2AF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#paragrafo{
+    @include titles(600, 40px, italic);
+    @include dimension(443px, 318px);
+    color: #707070;
+}
+
+#img_intro{
+    @include dimension(400px, 400px);
+}
+
+#viagens{
+    @include dimension(false, 400px);
+    background-color: #2EA2AF;
+    padding: 20px 100px 20px 20px;
+}
+
+#viagem{
+    @include dimension(250px, 280px);
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #000000A8;
+    border: 1px solid #707070;
+    border-radius: 15px;
+}
+
+#viagem img{
+    @include dimension(150px, 160px);
+}
+
+#viagem h1{
+    @include titles(700, 45px, italic);
+    text-align: center;
+    color: #444444;
+}
+
+#viagem p{
+    text-align: center;
+    font-weight: 700;
+    color: #707070;
+}
+
+#postagens h1{
+    color: #444444;
+    @include titles(700, 60px, italic);
+}
+
+#card{
+    @include dimension(75%, false);
+}
+
+#card h1{
+    color: #242424;
+}
+
+#card h4{
+    color: $text-color;
+    @include titles(700, 25px, false);
+}
+
+#card p{
+    @include titles(600, 18px, false);
+    color: #525252;
+}

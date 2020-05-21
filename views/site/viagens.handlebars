@@ -1,0 +1,15 @@
+<section class="d-flex flex-column justify-content-center align-items-center p-4 text-center">
+    <h1>Aqui você pode ver todas as viagens que já fizemos</h1>
+    {{#each viagens}}
+        <div class="card w-75 d-flex flex-column justify-content-center align-items-center text-center mt-4 bg-dark text-light viagem">
+            <div class="card-body">
+                <a href="/exibir/{{_id}}"> <button class="btn btn-primary" id="button_ler">Leia mais</button> </a> 
+                <h1 class="titulo_viagem"> {{titulo}} </h1>
+                <h4 class="subtitulo_viagem"> {{subtitulo}} </h4>
+                <p class="descricao_viagem"> {{descricao}} </p>
+            </div>
+        </div>
+    {{else}}
+        <h3 id="notViagens">Ainda não temos viagens para mostrar :(</h3>
+    {{/each}}
+</section>

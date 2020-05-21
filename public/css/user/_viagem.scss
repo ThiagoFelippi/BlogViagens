@@ -1,0 +1,28 @@
+#titulo_viagem{
+    @include titles(700, 50px, italic);
+    background-color: $button-color;
+    color: #ffffff;
+    padding: 20px 60px;
+    border-radius: 20px 80px;
+    animation: animar 1.5s ease-in;
+}
+
+@keyframes animar{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+#descricao_viagem{
+    @include titles(500, 35px, false);
+    animation: animar 1.5s ease-in;
+    
+}
+#conteudo_viagem{
+    @include titles(300, 22px, false);
+    animation: animar 1.5s ease-in;
+}

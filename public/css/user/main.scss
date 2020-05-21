@@ -1,0 +1,51 @@
+$nav-color: #95D4F1;
+$button-color: #2980E3;
+$text-color: #707070;
+$li-color: #343434;
+
+@mixin titles($weight, $size, $style){
+    @if $style != false{
+        font-style: $style;
+    }
+    @if $weight != false{
+        font-weight: $weight;
+    }
+    @if $size != false{
+        font-size: $size;
+    }
+}
+
+@mixin dimension($width, $height){
+    @if $width == false{
+        height: $height;
+    }
+    @else if $height == false{
+        width: $width;
+    }
+    @else{
+        height: $height;
+        width: $width;
+    }
+}
+
+@import '../admin/admin';
+@import '_style';
+@import '_nav';
+@import '_home';
+@import '_viagem';
+@import '_viagens';
+@import '_footer';
+
+ul{
+    list-style: none;
+}
+
+body{
+    height: 100%;
+}
+
+#divPrincipal{
+    position: relative;
+    height: 100vh;
+}
+

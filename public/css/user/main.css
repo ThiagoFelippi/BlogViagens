@@ -1,0 +1,335 @@
+#pub_viagem {
+  height: 90px;
+  width: 280px;
+  background-color: #2980E3;
+  color: #ffffff;
+  font-size: 30px;
+  -webkit-transition: 0.3s all ease-in;
+  transition: 0.3s all ease-in;
+}
+
+#pub_viagem:hover {
+  background-color: #3167a5;
+}
+
+#pub_historia {
+  height: 90px;
+  width: 280px;
+  background-color: #3B74B5;
+  color: #ffffff;
+  font-size: 30px;
+  -webkit-transition: 0.3s all ease-in;
+  transition: 0.3s all ease-in;
+}
+
+#pub_historia:hover {
+  background-color: #67abf8;
+}
+
+#titulo_viagem {
+  font-style: falitalicse;
+  font-weight: 700;
+  font-size: 50px;
+  background-color: #2980E3;
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 20px 80px;
+  -webkit-animation: animar 1.5s ease-in;
+          animation: animar 1.5s ease-in;
+}
+
+@-webkit-keyframes animar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#descricao_viagem {
+  font-weight: 500;
+  font-size: 35px;
+  -webkit-animation: animar 1.5s ease-in;
+          animation: animar 1.5s ease-in;
+}
+
+#conteudo_viagem {
+  font-weight: 300;
+  font-size: 22px;
+  -webkit-animation: animar 1.5s ease-in;
+          animation: animar 1.5s ease-in;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+}
+
+#divPrincipal {
+  position: relative;
+  height: 100vh;
+}
+
+#navegacao {
+  height: 70px;
+  background-color: #95D4F1;
+  -webkit-box-shadow: 0px 3px 6px #000000C2;
+          box-shadow: 0px 3px 6px #000000C2;
+}
+
+#navegacao div ul {
+  list-style: none;
+}
+
+#navegacao div ul li a {
+  font-style: italic;
+  font-size: 30px;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in all;
+  transition: 0.2s ease-in all;
+  color: #1b1b1b;
+}
+
+#navegacao div ul li a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#registrar {
+  font-size: 15px;
+  background-color: #3B74B5;
+  border-radius: 25px;
+  color: #FFFFFF;
+  -webkit-transition: 0.4s all ease-in;
+  transition: 0.4s all ease-in;
+}
+
+#registrar:hover {
+  background-color: #2980E3;
+}
+
+#login {
+  font-size: 25px;
+  width: 100px;
+  background-color: #2980E3;
+  border-radius: 27px;
+  color: #FFFFFF;
+  -webkit-transition: 0.4s all ease-in;
+  transition: 0.4s all ease-in;
+}
+
+#login:hover {
+  background-color: #3B74B5;
+}
+
+#intro {
+  height: 470px;
+}
+
+#titulo {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 55px;
+  width: 443px;
+  color: #2EA2AF;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#paragrafo {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 40px;
+  height: 318px;
+  width: 443px;
+  color: #707070;
+}
+
+#img_intro {
+  height: 400px;
+  width: 400px;
+}
+
+#viagens {
+  height: 400px;
+  background-color: #2EA2AF;
+  padding: 20px 100px 20px 20px;
+}
+
+#viagem {
+  height: 280px;
+  width: 250px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 6px #000000A8;
+          box-shadow: 0px 3px 6px #000000A8;
+  border: 1px solid #707070;
+  border-radius: 15px;
+}
+
+#viagem img {
+  height: 160px;
+  width: 150px;
+}
+
+#viagem h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #444444;
+}
+
+#viagem p {
+  text-align: center;
+  font-weight: 700;
+  color: #707070;
+}
+
+#postagens h1 {
+  color: #444444;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+#card {
+  width: 75%;
+}
+
+#card h1 {
+  color: #242424;
+}
+
+#card h4 {
+  color: #707070;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#card p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #525252;
+}
+
+#titulo_viagem {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+  background-color: #2980E3;
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 20px 80px;
+  -webkit-animation: animar 1.5s ease-in;
+          animation: animar 1.5s ease-in;
+}
+
+@keyframes animar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#descricao_viagem {
+  font-weight: 500;
+  font-size: 35px;
+  -webkit-animation: animar 1.5s ease-in;
+          animation: animar 1.5s ease-in;
+}
+
+#conteudo_viagem {
+  font-weight: 300;
+  font-size: 22px;
+  -webkit-animation: animar 1.5s ease-in;
+          animation: animar 1.5s ease-in;
+}
+
+.viagem {
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #2980E3;
+          box-shadow: 2px 2px 4px #2980E3;
+  position: relative;
+}
+
+#button_ler {
+  position: absolute;
+  right: 40;
+}
+
+.titulo_viagem {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.subtitulo_viagem {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.descricao_viagem {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#notViagens {
+  padding-bottom: 100px;
+  padding-top: 20px;
+}
+
+footer {
+  padding: 20px 150px;
+}
+
+footer h2 {
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+footer ul li {
+  color: #B5B5B5;
+  font-size: 40px;
+  margin: 0px -20px;
+}
+
+footer .redes {
+  padding: 10px 30px;
+}
+
+#afterFooter {
+  background-color: #2EA2AF;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+}
+
+#divPrincipal {
+  position: relative;
+  height: 100vh;
+}
+/*# sourceMappingURL=main.css.map */

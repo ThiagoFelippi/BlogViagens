@@ -1,0 +1,22 @@
+#pub_viagem{
+    @include dimension(280px, 90px);
+    background-color: $button-color;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 0.3s all ease-in;
+    &:hover{
+        background-color: rgb(49, 103, 165);
+    }
+}
+
+#pub_historia{
+    @include dimension(280px, 90px);
+    background-color: #3B74B5;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 0.3s all ease-in;
+    &:hover{
+        background-color: rgb(103, 171, 248);
+
+    }
+}
